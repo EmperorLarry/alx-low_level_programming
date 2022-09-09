@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 
 #include <time.h>
 
@@ -6,13 +6,13 @@ nclude <stdlib.h>
 
 /**
  *
- *  * main - prints the last digits of the randon
+ * main - prints the last digits of the randon
  *
- *   * number stored in the variable n
+ * number stored in the variable n
  *
- *    * Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  *
- *     */
+ */
 
 int main(void)
 
