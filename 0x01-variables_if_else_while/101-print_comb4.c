@@ -21,11 +21,11 @@ int main(void)
 						putchar(num1);
 						putchar(num2);
 						putchar(num3);
-						if (num1 != 55 || num2 != 56)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (num1 != 55 || num2 != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
