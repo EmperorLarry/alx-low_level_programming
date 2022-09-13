@@ -3,4 +3,4 @@
  * This header files contains functions declarations
  */
 
-int _putchar (char);
+int _putchar(char);
