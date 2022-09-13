@@ -4,7 +4,7 @@
  * followed by a new line.
  * Return: returns 0 on success
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	int i;
 
