@@ -40,6 +40,7 @@ void print_times_table(int n)
 			}
 				else
 			{
+				_putchar(' ');
 				print(k);
 			}
 			if (k < n)
