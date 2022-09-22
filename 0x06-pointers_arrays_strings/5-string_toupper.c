@@ -4,16 +4,16 @@
  * @s: string to modify
  * Return: the resulting string
  */
-char *string_toupper(char *s)
+char *string_toupper(char *str)
 {
 	int k;
 
-	for (k = 0; s[k] != '\0'; k++)
+	for (k = 0; str[k] != '\0'; k++)
 	{
-		if (s[k] >= 'a' && s[k] <= 'z')
+		if (str[k] >= 'a' && str[k] <= 'z')
 		{
-			s[k] = s[k] - 32;
+			str[k] = str[k] - 32;
 		}
 	}
-	return (s);
+	return (str);
 }
