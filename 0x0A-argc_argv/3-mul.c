@@ -51,6 +51,7 @@ int _atoi(char *s)
  *
  * Return: 0 (Success), 1 (Error)
  */
+
 int main(int argc, char *argv[])
 {
 	int result, num1, num2;
@@ -63,6 +64,7 @@ int main(int argc, char *argv[])
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
 	result = num1 * num2;
+
 	printf("%d\n", result);
 	return (0);
 }
